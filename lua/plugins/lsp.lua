@@ -12,7 +12,13 @@ return {
 				automatic_enable = true,
 			},
 		},
-		"WhoIsSethDaniel/mason-tool-installer.nvim",
+		{
+			"WhoIsSethDaniel/mason-tool-installer.nvim",
+			opts = {
+				auto_update = true,
+				run_on_start = true
+			}
+		},
 		{ "j-hui/fidget.nvim",    opts = {} },
 		{
 			"hrsh7th/nvim-cmp",
