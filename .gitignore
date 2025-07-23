@@ -41,3 +41,4 @@ luac.out
 
 # User Defined ignores
 lazy-lock.json
+lua/current-theme.lua
